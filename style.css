@@ -1,0 +1,126 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Comfortaa', cursive;
+}
+
+body{
+	margin: 0; 
+}
+
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 250px;
+	height: 100%;
+	background: url("img/bg1.jpg");
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	object-fit: cover;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+nav h4{
+	color: white;
+}
+nav img{
+	margin-top: 100px;
+	width: 100px;
+	height: 115px;
+	border-radius: 50%;
+}
+nav a{
+	margin-top: 25px;
+	display: inline-block;
+	text-decoration: none;
+	padding: 5px 15px;
+	font-size: 0.9em;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	border-bottom: 2px solid #ffaa00;
+}
+nav a:hover{
+	opacity: 0.5;
+	transition-delay:0.05s;
+}
+p{
+	font-size: 15px;
+}
+#session0{
+	margin-left: 300px;
+	padding: 10px;
+	font-size: 20px;
+	display: block;
+}
+#session1{
+	margin-left: 300px;
+	padding: 10px;
+	font-size: 20px;
+	display: none;
+}
+#session2{
+	margin-left: 300px;
+	padding: 10px;
+	font-size: 20px;
+	display: none;
+}
+#session3{
+	margin-left: 300px;
+	padding: 10px;
+	font-size: 20px;
+	display: none;
+}
+#session4{
+	margin-left: 300px;
+	padding: 10px;
+	font-size: 20px;
+	display: none;
+}
+
+#imghallo{
+	width: 30px;
+	height: 30px;
+}
+div.polaroid {
+	width: 200px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+	border-radius: 10%;
+	display: table-cell;
+}
+div.pola{
+	width: 150px;
+	display: table-cell;
+}
+
+div.container {
+	padding: 10px;
+}
+div img{
+	margin-top: 20px;
+	transition: transform .2s;
+}
+div img:hover{
+	transform: scale(1.5);
+}
+
+#imgPendidikan{
+	height: 50px;
+	width: 50px;
+}
+
+.bar-container {
+  width: 90%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+.bar-0 {width: 80%; height: 25px; background-color: #4CAF50;}
+.bar-1 {width: 50%; height: 25px; background-color: #4CAF50;}
+.bar-2 {width: 75%; height: 25px; background-color: #4CAF50;}
+.bar-3 {width: 40%; height: 25px; background-color: #4CAF50;}
+.bar-4 {width: 40%; height: 25px; background-color: #4CAF50;}
+.bar-5 {width: 68%; height: 25px; background-color: #4CAF50;}
