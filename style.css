@@ -7,7 +7,7 @@ body{
 	margin: 0; 
 }
 
-nav{
+.nav1 {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -20,16 +20,16 @@ nav{
 	align-items: center;
 	justify-content: center;
 }
-nav h4{
+.nav1 h4{
 	color: white;
 }
-nav img{
+.nav1 img{
 	margin-top: 100px;
 	width: 100px;
 	height: 115px;
 	border-radius: 50%;
 }
-nav a{
+.nav1 a{
 	margin-top: 25px;
 	display: inline-block;
 	text-decoration: none;
@@ -41,39 +41,86 @@ nav a{
 	letter-spacing: 0.05em;
 	border-bottom: 2px solid #ffaa00;
 }
-nav a:hover{
+.nav1 a:hover{
 	opacity: 0.5;
 	transition-delay:0.05s;
+}
+
+.mantul {
+	margin-left: 300px;
+}
+ @media (min-width: 360px) and (max-width: 640px) {
+ 	.nav1 {
+ 		display: none;
+ 	}
+ 	.nav1 img {
+ 		display: none;
+ 	}
+ 	.nav1 a {
+ 		display: none;
+ 	}
+ 	.nav1 h4 {
+ 		display: none;
+ 	}
+ 	.nav2 {}
+ 	ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	  background-color: #333;
+	}
+
+	li {
+	  float: left;
+	}
+
+	li a {
+	  display: block;
+	  color: white;
+	  text-align: center;
+	  padding: 5px 5px;
+	  text-decoration: none;
+	}
+
+	li a:hover {
+	  background-color: #111;
+	}
+ 	.mantul {
+ 		margin-left: 0px;
+ 	}
+}
+.table-profile{
+	width: 100%;
+	font-size: 14px;
+}
+.table-profile td {
+	padding-bottom: 1%;
 }
 p{
 	font-size: 15px;
 }
 #session0{
-	margin-left: 300px;
 	padding: 10px;
 	font-size: 20px;
 	display: block;
 }
 #session1{
-	margin-left: 300px;
 	padding: 10px;
 	font-size: 20px;
 	display: none;
 }
 #session2{
-	margin-left: 300px;
 	padding: 10px;
 	font-size: 20px;
 	display: none;
 }
 #session3{
-	margin-left: 300px;
 	padding: 10px;
 	font-size: 20px;
 	display: none;
 }
 #session4{
-	margin-left: 300px;
 	padding: 10px;
 	font-size: 20px;
 	display: none;
